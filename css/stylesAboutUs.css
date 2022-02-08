@@ -1,0 +1,446 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='76' height='18' viewBox='0 0 76 18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M32 18c-2.43-1.824-4-4.73-4-8 0-4.418-3.582-8-8-8H0V0h20c5.523 0 10 4.477 10 10 0 4.418 3.582 8 8 8h20c4.418 0 8-3.582 8-8 0-5.523 4.477-10 10-10v2c-4.418 0-8 3.582-8 8 0 3.27-1.57 6.176-4 8H32zM64 0c-1.67 1.256-3.748 2-6 2H38c-2.252 0-4.33-.744-6-2h32z' fill='%23a205f7' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.conteNav {
+  width: 90%;
+  margin: auto;
+}
+
+/* Nav */
+
+.conteNav {
+  width: 95%;
+}
+
+.nav-main2 {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.nav-brand2 {
+  width: 50px;
+}
+
+/* Nav Left */
+
+.nav-main2 ul {
+  display: flex;
+}
+
+.nav-main2 ul li {
+  padding: 10px;
+}
+
+.nav-main2 ul li a {
+  padding: 4px;
+}
+
+.nav-main2 ul li a:hover {
+  border-bottom: 2px solid black;
+}
+
+.nav-main2 ul.nav-menu2 {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.menu-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 30px;
+  display: none;
+  z-index: 2;
+  font-size: 1.5rem;
+}
+
+/* Showcase */
+
+hr {
+  margin: 10px 0;
+}
+
+
+
+
+.cajaDeShowcase {
+  background: url("../image/backgroundAboutUs1.jpg") no-repeat center/cover;
+  width: 100%;
+  height: 700px;
+  border-style: outset;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.cajaDeTextoShowcase {
+  font-family: "Kaushan Script", cursive;
+  word-spacing: 20px;
+  letter-spacing: 15px;
+  text-align: center;
+  padding-top: 260px;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+/* Caja de texto 1 */
+
+.conteCajaText1 {
+  width: 100%;
+  height: 600px;
+  font-family: "Josefin Sans", sans-serif;
+  background: #040407;
+  border-style: outset;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.conteCajaText1 {
+  height: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.conteCajaText1 p {
+  width: 50%;
+  padding: 100px 0 0 0;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* caja de texto2 presentacion */
+
+.contePresentacion {
+  background-color: floralwhite;
+  color: black;
+  border-style: outset;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.contePresentacion img {
+  width: 300px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.fotos h3 {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+}
+
+.fotos .primeraFoto,
+.fotos .segundaFoto {
+  margin-top: 150px;
+}
+
+.conteParrafo {
+  height: auto;
+  width: auto;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+}
+
+.conteParrafo2 {
+  height: auto;
+  width: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+}
+
+.conteParrafo2 h3 {
+  font-family: "Kaushan Script", cursive;
+  color: indianred;
+}
+
+.ultimaCajaText {
+  background: url("../image/backgroundUltimate.jpg") no-repeat center
+    center/cover;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 10px;
+}
+
+.textoIzquierda {
+  width: 50%;
+  display: flex;
+}
+
+.textoIzquierda p {
+  position: right;
+}
+
+/* social */
+
+.social {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: outset;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+}
+
+.social p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.otroEstilo {
+  font-weight: bold;
+  font-size: 30px;
+  color: goldenrod;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.links a {
+  margin: 0 30px;
+  color: rgb(255, 255, 255);
+}
+
+.links a i {
+  font-size: 3rem;
+}
+
+/* Ultima caja de text */
+
+.ultimaCajaText {
+  background-color: rgb(95, 96, 98);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+  border-style: outset;
+}
+
+.ultimaCajaText p {
+  width: 700px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+/* Footer Links */
+
+.footerLinks {
+  width: 100%;
+  background: #2f3640;
+  color: #717171;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+.footerConteiner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footerConteiner ul {
+  margin: 0 auto;
+}
+
+.footerConteiner ul li {
+  line-height: 3;
+}
+
+/* Footer CopyRigth */
+
+.footer {
+  background: #2f3540;
+  color: #717171;
+  font-size: 20px;
+  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* reponsive */
+
+@media (max-width: 1443px) {
+  .conteCajaText1 p {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1074px) {
+  .ultimaCajaText p {
+      position: relative;
+      right: -40px;
+  }
+}
+
+@media (max-width: 1046px) {
+  .conteCajaText1 p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-main2 ul.nav-menu2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    height: 100%;
+    padding: 30px;
+    opacity: 0.9;
+    transform: translateX(-400px);
+    transition: transform .5s ease-in-out;
+  }
+
+  .nav-main2 ul.nav-menu2.show {
+    transform: translateX(-50px);
+    height: 4465px;
+    
+    z-index: 2;
+  }
+
+  .nav-main2 ul.nav-menu2 li {
+    padding: 20px;
+  }
+
+  .nav-main2 ul.nav-menu-right2 {
+    margin-right: 40px;
+  }
+
+}
+
+@media (max-width: 753px) {
+  .conteCajaText1 p {
+    padding: 30px 0 0 0;
+  }
+}
+
+@media (max-width: 738px) {
+  .primeraFoto img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .segundaFoto img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 706px) {
+  .ultimaCajaText p {
+      position: relative;
+      right: -40px;
+  }
+}
+
+@media (max-width: 619px) {
+  .conteCajaText1 p {
+    padding: 0 0 0 0;
+  }
+}
+
+@media (max-width: 696px) {
+  .ultimaCajaText .textoIzquierda {
+    position: relative;
+      right: 80px;
+      margin: 0 auto;
+  }
+
+  .ultimaCajaText .textoIzquierda p{
+    position: relative;
+      right: 0px;
+      margin: 0 auto;
+  }
+
+  .conteCajaText1 p {
+    width: auto;
+    font-size: 24px;
+  }
+
+  .contePresentacion .fotos {
+    gap: 2px;
+  }
+
+  /* .primeraFoto {
+    width: 50%;
+  }
+
+  .segundaFoto {
+    width: 50%;
+  } */
+
+  
+}
+
+
